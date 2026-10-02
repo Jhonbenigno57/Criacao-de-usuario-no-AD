@@ -41,7 +41,7 @@ O solicitante preenche as informações do novo integrante (Nome, Cargo, Departa
 
 ### 2. Processamento (Power Automate):
 
-Trata os dados de entrada (gera UPN, Primeiro e Último nome).
+Trata os dados de entrada (UPN, Primeiro e Último nome).
 
 Consulta as tabelas auxiliares no SharePoint para mapear o caminho correto da OU (Path).
 

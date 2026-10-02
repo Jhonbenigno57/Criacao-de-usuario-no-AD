@@ -29,7 +29,7 @@ Antes de executar a automação ou o script, garanta que o ambiente atenda aos s
 [ Lista SharePoint ] ──► Status: "Pendente" (O powershell executará apenas as linhas que conterem "Pendente" na coluna "Status") <br><br>
            ↓ <br><br>
 [ Script PowerShell ] ──► (Executa `PnP` + `New-ADUser` + Trata os dados necessários, como senhas, datas e objetos) <br><br>
-           ↓ <br><br>       
+           ↓ <br>       
 [ Active Directory ] ──► Após a criação do usuário no AD. O script atualiza o status da lista sharepoint para "Concluído" ou "Erro" <br><br>
 
 

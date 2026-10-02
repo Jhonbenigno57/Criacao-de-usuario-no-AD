@@ -22,7 +22,7 @@ Antes de executar a automação ou o script, garanta que o ambiente atenda aos s
 
 ## Arquitetura do Fluxo
 
-[ Microsoft Forms ] 
+[ Microsoft Forms ] <br>
         |
         ▼
 [ Power Automate ] ──► (Tratamento de dados, consulta em base de dados e alimentação da lista do sharepoint com todos os campos necessários no AD)

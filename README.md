@@ -23,17 +23,13 @@ Antes de executar a automação ou o script, garanta que o ambiente atenda aos s
 ## Arquitetura do Fluxo
 
 [ Microsoft Forms ] <br>
-        | <br>
-        ▼ <br>
+           ↓ <br>
 [ Power Automate ] ──► (Tratamento de dados, consulta em base de dados e alimentação da lista do sharepoint com todos os campos necessários no AD) <br>
-        | <br>
-        ▼ <br>
+           ↓ <br>
 [ Lista SharePoint ] ──► Status: "Pendente" (O powershell executará apenas as linhas que conterem "Pendente" na coluna "Status") <br>
-        | <br>
-        ▼ <br>
+           ↓ <br>
 [ Script PowerShell ] ──► (Executa `PnP` + `New-ADUser` + Trata os dados necessários, como senhas, datas e objetos) <br>
-        | <br>
-        ▼ <br>
+           ↓ <br>
 [ Active Directory ] ──► Após a criação do usuário no AD. O script atualiza o status da lista sharepoint para "Concluído" ou "Erro" <br>
 
 

@@ -23,7 +23,7 @@ Antes de executar a automação ou o script, garanta que o ambiente atenda aos s
 ## Arquitetura do Fluxo
 
 [ Microsoft Forms ] <br><br>
-                                                           ↓ <br><br>
+ <p align="center">↓</p> <br><br>
 [ Power Automate ] ──► (Tratamento de dados, consulta em base de dados e alimentação da lista do sharepoint com todos os campos necessários no AD) <br><br>
                                                            ↓ <br><br>
 [ Lista SharePoint ] ──► Status: "Pendente" (O powershell executará apenas as linhas que conterem "Pendente" na coluna "Status") <br><br>
